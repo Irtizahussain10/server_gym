@@ -37,7 +37,7 @@ class connect {
   }
 }
 
-app.get("/", function (req, res) {
+app.get("/*", function (req, res) {
   res.sendFile(path + "index.html");
 });
 
